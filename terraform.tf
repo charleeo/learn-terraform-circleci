@@ -8,7 +8,6 @@ terraform {
   }
   
 backend "remote" {
-    hostname = "app.terraform.io"
     organization = "charleeo"
     workspaces {
       name = "terraform-learn-circleci"
