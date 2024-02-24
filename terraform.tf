@@ -11,7 +11,7 @@ backend "remote" {
     hostname = "app.terraform.io"
     organization = "charleeo"
     workspaces {
-      name = "my-app-prod"
+      name = "terraform-learn-circleci"
     }
 }
   required_version = "~> 1.2"
