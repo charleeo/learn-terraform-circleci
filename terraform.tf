@@ -9,7 +9,7 @@ terraform {
   
 backend "remote" {
     organization = "charleeo"
-    workspaces {
+    workspace {
       name = "terraform-learn-circleci"
     }
 }
